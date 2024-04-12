@@ -13,3 +13,5 @@ app.post("/dates", (req, res) => {
 });
 
 app.listen(4500, () => console.log("running"));
+
+module.exports = app;
